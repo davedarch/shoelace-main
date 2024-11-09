@@ -1,5 +1,6 @@
 scripts/
 fetch_python_scripts.py
+index-copy.html
 
 # Logs
 logs

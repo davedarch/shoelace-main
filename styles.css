@@ -1,0 +1,33 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+sl-card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+sl-button {
+    margin-top: 10px;
+}
+
+.animation-overview .box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: var(--sl-color-primary-600);
+    margin: 1.5rem;
+}
