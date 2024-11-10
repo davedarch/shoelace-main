@@ -1,6 +1,6 @@
 body {
     background-color: #121212;
-    color: #ffffff;
+    color: #2c2a2a;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -13,8 +13,8 @@ body {
 
 sl-card {
     background-color: #1e1e1e;
-    color: #ffffff;
-    width: 300px;
+    color: #2d2525;
+    width: 500px;
     margin: 20px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -30,4 +30,21 @@ sl-button {
     height: 100px;
     background-color: var(--sl-color-primary-600);
     margin: 1.5rem;
+}
+
+.tutorial-step {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tutorial-step h4 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.tutorial-step p, .tutorial-step sl-input, .tutorial-step sl-switch, .tutorial-step sl-alert {
+    color: #ffffff;
 }
